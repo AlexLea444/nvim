@@ -7,6 +7,6 @@ Mileage may vary.
 
 ```bash
 $ cd ~/.config
-$ git clone git@github.com/AlexLea444/nvim.git
+$ git clone git@github.com:AlexLea444/nvim.git
 $ nvim .
 ```
