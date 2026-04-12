@@ -61,3 +61,7 @@ vim.keymap.set("n", "<leader>vrn", function() vim.lsp.buf.rename() end)
 vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end)
 vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end)
 vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end)
+
+-- Move to new pane when splitting
+vim.keymap.set("n", "<C-w>s", "<Cmd>split<CR><C-w>j")
+vim.keymap.set("n", "<C-w>v", "<Cmd>vsplit<CR><C-w>l")
